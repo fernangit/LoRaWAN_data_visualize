@@ -15,7 +15,7 @@ sensor data visualizing by loRaWAN, Node-RED and Ambient
 
 3. ArduinoとLoRaWAN通信モジュールを接続する
 
-4. Kashiwa Geeksライブラリを導入する
+4. Kashiwa Geeksライブラリを導入する  
   https://github.com/ty4tw/KashiwaGeeks  
   Arduino IDEを起動し、「スケッチ」→「ライブラリをインクルード」→「.zip形式のライブラリをインストール」で、先ほどダウンロードしたzipファイルを選択し、インストールします。  
   「スケッチ」→「ライブラリをインクルード」の中の下の方に「KashiwaGeeks-master」があれば、インストールは成功です。  
@@ -57,12 +57,14 @@ sensor data visualizing by loRaWAN, Node-RED and Ambient
 
 ## Node-RED設定(IBM-Cloud)
 
+工事中
+
 
 ## ambient設定(IoTデーターの可視化サービス)
 1. アカウント作成  
   https://ambidata.io/
 
-2. ログインする
+2. ログインする  
   https://ambidata.io/ch/channels.html
 
 3. チャンネルを作る
