@@ -57,21 +57,50 @@ sensor data visualizing by loRaWAN, Node-RED and Ambient
  ノードが 表示されている
 
 ## Node-RED設定(IBM-Cloud)
+https://nodered.jp/docs/getting-started/ibmcloud
 
-工事中
+1. ユーザー登録  
+  https://cloud.ibm.com/
 
+2. リソース生成  
+  リソース生成ボタンを押す
+
+3. 継続的デリバリーの有効化
+  http://nikami.org/bluemix-クラウド-アプリ開発環境-継続的デリバリー/ を参考
+    1. 継続的デリバリーの”有効化”を押す  
+    2. ”作成”を押す  
+
+4. API キーの作成
+
+5. ツールチェーンの作成
+    1. ”作成”を押すとツールチェーンができる  
+    2. Gitを選ぶとリポジトリに飛ぶ
+
+6. リポジトリ編集
+    1. package.jsonを選択し、editを押す。
+    2. その中のdependenciesに追加したいサードパーティー・ノードを追加する。
+```
+    "node-red-contrib-ambient":"0.0.x"
+```
+
+7. コミット&デプロイ
+    1. "Commit changes"する  
+    2. "Deploy to IBM Cloud"を押す  
+    3. アプリ URL にアクセス  
+    その他に”Ambient”が追加されてる！
+
+8. ChannelIdとWriteKeyを設定
 
 ## ambient設定(IoTデーターの可視化サービス)
-1. アカウント作成  
-  https://ambidata.io/
+https://ambidata.io/
 
-2. ログインする  
-  https://ambidata.io/ch/channels.html
+1. ユーザー登録  
+  https://ambidata.io/usr/signup.html
 
-3. チャンネルを作る
+2. チャネル生成  
 「チャンネルを作る」ボタンを押す
 
-4. チャートを作る  
+3. 可視化(グラフ化)  
   Myチャンネルボタンを押す  
   チャート追加ボタンを押す
 
