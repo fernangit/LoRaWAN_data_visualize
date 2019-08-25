@@ -64,7 +64,7 @@ https://nodered.jp/docs/getting-started/ibmcloud
 2. リソース生成  
   リソース生成ボタンを押す
 
-3. 継続的デリバリーの有効化
+3. 継続的デリバリーの有効化  
   http://nikami.org/bluemix-クラウド-アプリ開発環境-継続的デリバリー/ を参考
     1. 継続的デリバリーの”有効化”を押す  
     2. ”作成”を押す  
