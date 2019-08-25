@@ -4,10 +4,9 @@ sensor data visualizing by loRaWAN, Node-RED and Ambient
 センスウェイ社のLoRaWANスターターキットを利用したシステム構築
 
 ## LoRaWAN設定
-1. アカウント作成、デバイスの登録、ゲートウェイの利用と申込み
-  SenseWay Mission Connectにアカウントを作成し、モジュールを登録、アカウントに紐づけます。
-
-   https://console.senseway.net/login
+1. アカウント作成、デバイスの登録、ゲートウェイの利用と申込み　　
+  SenseWay Mission Connectにアカウントを作成し、モジュールを登録、アカウントに紐づけます。  
+  https://console.senseway.net/login
 
 2. ゲートウェイをインターネットと接続する  
   LoRaWANレンタルゲートウェイ（G-BOX）使用方法を参照  
@@ -18,12 +17,12 @@ sensor data visualizing by loRaWAN, Node-RED and Ambient
 
 4. Kashiwa Geeksライブラリを導入する  
   https://github.com/ty4tw/KashiwaGeeks  
-  Arduino IDEを起動し、「スケッチ」→「ライブラリをインクルード」→「.zip形式のライブラリをインストール」で、先ほどダウンロードしたzipファイルを選択し、インストールします。  
-  「スケッチ」→「ライブラリをインクルード」の中の下の方に「KashiwaGeeks-master」があれば、インストールは成功です。  
-  ツール→シリアルモニタ→57600bps  
-  ファイル→スケッチ例→KashiwaGeeksMaster→End-node_Sample
+    1.  Arduino IDEを起動し、「スケッチ」→「ライブラリをインクルード」→「.zip形式のライブラリをインストール」で、先ほどダウンロードしたzipファイルを選択し、インストールする。  
+    2. 「スケッチ」→「ライブラリをインクルード」の中の下の方に「KashiwaGeeks-master」があれば、インストールは成功。  
+    3. ツール→シリアルモニタ→57600bps  
+    4. ファイル→スケッチ例→KashiwaGeeksMaster→End-node_Sample
 をarduinoにロード  
-  システムモニタに「SUCCESS」と表示されれば成功
+    システムモニタに「SUCCESS」と表示されれば成功
 
 ## Node-RED設定(local)
 1. Node.jsインストール  
