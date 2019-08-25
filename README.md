@@ -9,8 +9,9 @@ sensor data visualizing by loRaWAN, Node-RED and Ambient
 
    https://console.senseway.net/login
 
-2. ゲートウェイをインターネットと接続する
+2. ゲートウェイをインターネットと接続する  
   LoRaWANレンタルゲートウェイ（G-BOX）使用方法を参照  
+  https://www.senseway.net/service/network-service/network-manual/lorawangateway_gbox_manual/  
   ゲートウェイの4つのLED点灯　でOK
 
 3. ArduinoとLoRaWAN通信モジュールを接続する
