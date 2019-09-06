@@ -4,7 +4,7 @@ sensor data visualizing by loRaWAN, Node-RED and Ambient
 センスウェイ社のLoRaWANスターターキットを利用したシステム構築
 
 ## LoRaWAN設定
-1. アカウント作成、デバイスの登録、ゲートウェイの利用と申込み　　
+1. アカウント作成、デバイスの登録、ゲートウェイの利用と申込み  
   SenseWay Mission Connectにアカウントを作成し、モジュールを登録、アカウントに紐づけます。  
   https://console.senseway.net/login
 
