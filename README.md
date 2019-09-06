@@ -114,6 +114,6 @@ https://ambidata.io/
 * ArduinoとLoRaWANモジュールでデータを送信する
   * https://qiita.com/takamachi1saki/items/03952069972b2d10fa64
 * センスウェイさんのLoRaWANスターターキットを試してみた - サーバーレスにセンサデータ取得&可視化
- * http://tokina.hatenadiary.jp/entry/20190131_Senseyway_Kit_Serverless
+  * http://tokina.hatenadiary.jp/entry/20190131_Senseyway_Kit_Serverless
 
 ## License
